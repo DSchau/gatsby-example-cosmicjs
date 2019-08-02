@@ -10,7 +10,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-cosmicjs`,
+      resolve: `@dschau/gatsby-source-cosmicjs`,
       options: {
         bucketSlug: process.env.COSMIC_BUCKET || `9c2ade90-b4bb-11e9-87c5-ab736be982f7`,
         objectTypes: [`pages`],
